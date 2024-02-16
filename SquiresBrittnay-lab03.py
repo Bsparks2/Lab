@@ -1,9 +1,9 @@
 # Brittnay Squires
 # UWYO COSC 1010
-# Submission Date
+# Submission Date: February 15, 2024
 # Lab 03 
 # Lab Section: 40 
-# Sources, people worked with, help given to: 
+# Sources, people worked with, help given to: Soudabeh Bolouri, Ryan Zafft
 
 
 
@@ -48,9 +48,9 @@ print(states)
 
 #Again using the specific syntax mentioned in class overwrite the second to last element to be Maine, printing the list 
 
-states.insert(5,"Maine")
-print(f"{states.pop(4)}")
+states[4] = "Maine"
 print(states)
+
 #Insert the state Texas to be the third element in the list, again printing your list
 
 states.insert(2,"Texas")
